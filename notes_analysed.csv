@@ -1,0 +1,31 @@
+note_id,appointment_id,note_text,root_cause,confidence,evidence,recommended_action,status,raw_response,error
+N001,A0872,Patient said she never got any reminder message and completely forgot about the visit. Wants to rebook for next week.,forgot_or_no_reminder,0.98,Patient said she never got any reminder message and completely forgot about the visit.,Send automated SMS and email reminders prior to the rebooked appointment.,analysed,"{""root_cause"":""forgot_or_no_reminder"",""confidence"":0.98,""evidence"":""Patient said she never got any reminder message and completely forgot about the visit."",""recommended_action"":""Send automated SMS and email reminders prior to the rebooked appointment.""}",
+N002,A0897,Lives far from the clinic and could not find any transport that morning. Says the clinic is too far for a routine check-up.,distance_or_transport,0.98,Lives far from the clinic and could not find any transport that morning. Says the clinic is too far for a routine check-up.,Offer telehealth options or help coordinate transportation services for future routine appointments.,analysed,"{
+  ""root_cause"": ""distance_or_transport"",
+  ""confidence"": 0.98,
+  ""evidence"": ""Lives far from the clinic and could not find any transport that morning. Says the clinic is too far for a routine check-up."",
+  ""recommended_action"": ""Offer telehealth options or help coordinate transportation services for future routine appointments.""
+}",
+N003,A0526,Patient felt the consultation fee was too high this month and decided to skip. Asked if there is any discount for follow-ups.,cost_or_fee,0.98,Patient felt the consultation fee was too high this month and decided to skip.,"Provide information regarding financial assistance, flexible payment options, or follow-up discount programs.",analysed,"{""root_cause"":""cost_or_fee"",""confidence"":0.98,""evidence"":""Patient felt the consultation fee was too high this month and decided to skip."",""recommended_action"":""Provide information regarding financial assistance, flexible payment options, or follow-up discount programs.""}",
+N004,A0926,,,,,,skipped_blank,,
+N005,A0534,"Had high fever and body ache on the day, stayed in bed. Will visit once recovered.",illness_or_emergency,0.95,"Had high fever and body ache on the day, stayed in bed.",Follow up with the patient to reschedule their appointment once they have recovered.,analysed,"{""root_cause"":""illness_or_emergency"",""confidence"":0.95,""evidence"":""Had high fever and body ache on the day, stayed in bed."",""recommended_action"":""Follow up with the patient to reschedule their appointment once they have recovered.""}",
+N006,A0507,"Manager called an urgent meeting at the office, could not leave work. Asked for an evening slot next time.",work_or_schedule,0.95,"Manager called an urgent meeting at the office, could not leave work.",Offer evening or weekend appointment slots to accommodate work schedules.,analysed,"{""root_cause"":""work_or_schedule"",""confidence"":0.95,""evidence"":""Manager called an urgent meeting at the office, could not leave work."",""recommended_action"":""Offer evening or weekend appointment slots to accommodate work schedules.""}",
+N007,A0333,"Bhool gaya, SMS nahi aaya tha. Dobara booking karni hai.",forgot_or_no_reminder,0.95,"Bhool gaya, SMS nahi aaya tha.",Reschedule the appointment and verify SMS reminder settings.,analysed,"{
+  ""root_cause"": ""forgot_or_no_reminder"",
+  ""confidence"": 0.95,
+  ""evidence"": ""Bhool gaya, SMS nahi aaya tha."",
+  ""recommended_action"": ""Reschedule the appointment and verify SMS reminder settings.""
+}",
+N008,A0222,"City bus strike that day, no auto available near the colony. Distance is a big problem for him.",distance_or_transport,0.95,"City bus strike that day, no auto available near the colony. Distance is a big problem for him.",Offer telehealth options or provide assistance with non-emergency medical transportation services.,analysed,"{""root_cause"":""distance_or_transport"",""confidence"":0.95,""evidence"":""City bus strike that day, no auto available near the colony. Distance is a big problem for him."",""recommended_action"":""Offer telehealth options or provide assistance with non-emergency medical transportation services.""}",
+N009,A0977,"Phone was switched off, could not reach the patient after three attempts.",other,0.3,"Phone was switched off, could not reach the patient after three attempts.",Try reaching out via alternative communication channels such as SMS or email.,analysed,"{
+  ""root_cause"": ""other"",
+  ""confidence"": 0.3,
+  ""evidence"": ""Phone was switched off, could not reach the patient after three attempts."",
+  ""recommended_action"": ""Try reaching out via alternative communication channels such as SMS or email.""
+}",
+N010,A0596,Had a shift change at the factory and could not take leave. Prefers Saturday appointments.,work_or_schedule,0.95,Had a shift change at the factory and could not take leave.,Reschedule the patient for a Saturday appointment as requested.,analysed,"{
+  ""root_cause"": ""work_or_schedule"",
+  ""confidence"": 0.95,
+  ""evidence"": ""Had a shift change at the factory and could not take leave."",
+  ""recommended_action"": ""Reschedule the patient for a Saturday appointment as requested.""
+}",

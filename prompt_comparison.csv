@@ -1,0 +1,3 @@
+note_id,note_text,V1_error,V2_error
+N007,"Bhool gaya, SMS nahi aaya tha. Dobara booking karni hai.",All models failed during call_gemini,All models failed during call_gemini
+N009,"Phone was switched off, could not reach the patient after three attempts.",All models failed during call_gemini,All models failed during call_gemini
